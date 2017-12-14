@@ -14,11 +14,10 @@
   color: seashell;
   opacity: 0.9;
   height: 100%;
-
 }
 
 .imageone {
-  height: 50px;
+ height: 50px;
   margin-left: 10px;
 }
 
@@ -36,18 +35,31 @@
 
 #navigation {
   display: flex;
-  align-items: flex-end
+  align-items: flex-end;
   width: 9%;
 }
 
 .bigcontent {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding-top: 69px;
 }
 
-.background {
+.main  {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
-}
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.maintwo {
+    background-color: black;
+    margin-top: 260px;
+    margin-bottom: 260px;
+    width: 1200px;
+    height: 145px;
+}

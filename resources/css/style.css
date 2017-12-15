@@ -14,11 +14,12 @@
   color: seashell;
   opacity: 0.9;
   height: 100%;
+  width: 100%;
 }
 
 .imageone {
  height: 50px;
-  margin-left: 10px;
+ margin-left: 10px;
 }
 
 .navigation {
@@ -42,8 +43,8 @@
 .bigcontent {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-top: 69px;
+  align-content: center;
+  padding-top: 70px;
 }
 
 .main  {
@@ -62,4 +63,99 @@
     margin-bottom: 260px;
     width: 1200px;
     height: 145px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.middletwo {
+  display: block;
+}
+
+.photo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+}
+
+#phototwo {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ape {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.photothree {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.photofour {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+#photofive {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#cat {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.dog {
+  margin-top: 10px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.dogtwo {
+  margin-top: 10px;
+  margin-right: 70px;
+  margin-left: 70px;
 }

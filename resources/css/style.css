@@ -14,7 +14,7 @@
   color: seashell;
   opacity: 0.9;
   height: 100%;
-  width: 100%;
+  width: 100%;
 }
 
 .imageone {
@@ -217,4 +217,8 @@
 
 .copyright {
   margin-left: 20px;
+}
+
+.six {
+  margin-bottom: 15px;
 }

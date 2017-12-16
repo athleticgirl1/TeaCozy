@@ -11,7 +11,7 @@
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
+  color: seashell;
   opacity: 0.9;
   height: 100%;
   width: 100%;
@@ -202,4 +202,19 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.depth {
+  height: 200px;
+  text-align: center;
+}
+
+.number {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+.copyright {
+  margin-left: 20px;
 }

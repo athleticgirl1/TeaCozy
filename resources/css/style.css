@@ -101,15 +101,12 @@
 
 .ape {
   margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .photothree {
   height: 200px;
   width: 300px;
   text-align: center;
-  margin-right: 30px;
 }
 
 .photofour {
@@ -123,19 +120,19 @@
 }
 
 #photofive {
-  width: 1000px;
+  width: 670px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #cat {
-  width: 1000px;
+  width: 670px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .bat {
@@ -150,12 +147,59 @@
 
 .dog {
   margin-top: 10px;
-  margin-right: 70px;
-  margin-left: 70px;
 }
 
 .dogtwo {
-  margin-top: 10px;
-  margin-right: 70px;
-  margin-left: 70px;
+  margin-top: 10px
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  align-content: center;
+}
+
+.bottom {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.two {
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
+}
+
+.three {
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
+}
+
+#four {
+  display: flex;
+  width: 1200px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.five {
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
+  opacity: 1 !important;
+}
+
+#bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
